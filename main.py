@@ -62,7 +62,7 @@ def onehot_encoding(s1: np.array):
     return pd.DataFrame(array)
 
 
-df = pd.read_csv("travel insurance.csv")
+df = pd.read_csv("thttps://raw.githubusercontent.com/jupiterzhuo/travel-insurance/master/travel%20insurance.csv")
 df = df.drop("Destination", axis=1)
 df = df.drop("Product Name", axis=1)
 df = df.drop("Gender", axis=1)
